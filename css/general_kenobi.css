@@ -1,0 +1,13 @@
+    .image_logo {
+        text-align: center;
+        display: flex;
+        justify-content: center; /* горизонтально */
+        align-items: center; /* вертикально */
+        height: 50px;
+    }
+
+    footer {
+        background-color: rgb(233, 233, 233);
+        height: 200px;
+        text-align: center;
+    }
