@@ -1,5 +1,5 @@
     .btn_return {
-        background-color: rgb(236, 236, 236);
+        background-color: rgb(253, 253, 253);
         border: none;
         font-size: 30px;
         border-radius: 30px;
@@ -7,6 +7,7 @@
         width: 175px;
         margin-top: 20px;
         margin-left: 20px;
+        cursor: pointer;
     }
 
     body {
@@ -16,7 +17,7 @@
     }
 
     .reg_rec {
-         height: 600px;
+         height: 520px;
          width: 500px;
          border-radius: 30px;
          background-color: rgb(253, 253, 253);
@@ -25,7 +26,7 @@
     .pelmen {
         font-family: "Arial", sans-serif;
         color: rgb(82, 82, 82);
-        margin-top: 125px;
+        margin-top: 150px;
         display: flex;
         justify-content: center;
     }
@@ -44,7 +45,7 @@
     .email_input_div {
         height: 50px;
         width: 450px;
-        font-size: 20px;
+        font-size: 15px;
         padding: 10px;
         padding-left: 15px;
         margin: 10px;
@@ -65,11 +66,11 @@
     .password_input_div {
         height: 50px;
         width: 450px;
-        font-size: 20px;
+        font-size: 15px;
         padding: 10px;
         padding-left: 15px;
         margin: 10px;
-        margin-top: 75px;
+        margin-top: 25px;
     }
 
     .password_repeat_input {
@@ -86,11 +87,11 @@
     .password_repeat_input_div {
         height: 50px;
         width: 450px;
-        font-size: 20px;
+        font-size: 15px;
         padding: 10px;
         padding-left: 15px;
         margin: 10px;
-        margin-top: 75px;
+        margin-top: 25px;
     }
 
     .top_text {
@@ -103,6 +104,26 @@
 
     .bottom_text {
          text-align: center;
-         margin-top: 15px;
+         margin-top: 0px;
          padding-top: 15px;
+    }
+
+    .btn {
+        background-color: rgb(0, 197, 82);
+        height: 50px;
+        width: 450px;
+        font-size: 20px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-left: 25px;
+        margin-top: 25px;
+        transition: 0.2s;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(0, 139, 58);
+        color: white;
     }

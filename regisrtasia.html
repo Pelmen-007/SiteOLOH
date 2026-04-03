@@ -7,7 +7,7 @@
 </head>
 <body>
     <button onclick="window.location.href = 'general_kenobi.html'" class="btn_return">
-        ← Назад
+        Назад
     </button>
     <div class="pelmen">
         <div class="reg_rec">
@@ -16,19 +16,23 @@
             </div>
             <div class="email_input_div">
                 Элеткронный адрес:
-                <input type="text" name="email" id="email" class="email_input">
+                <input type="text" placeholder="Введите эл. адрес..." id="email" class="email_input">
             </div>
             <div class="password_input_div">
                 Создайте пароль:
-                <input type="password" name="email" id="email" class="password_input">
+                <input type="password" placeholder="Введите пароль..." id="password" class="password_input">
             </div>
             <div class="password_repeat_input_div">
                 Повторите пароль:
-                <input type="password" name="email" id="email" class="password_repeat_input">
+                <input type="password" placeholder="Введите пароль..." id="password_repeat" class="password_repeat_input">
             </div>
+            <button id="btn" class="btn">
+                Зарегестрироваться
+            </button>
             <div class="bottom_text">
                 <p>Уже есть аккаунт? <a href="vchod.html">Войти</a>.</p>
             </div>
+            <script src="js/regisrtasia.js"></script>
         </div>
     </div>
 </body>

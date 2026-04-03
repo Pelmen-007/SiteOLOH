@@ -2,12 +2,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация</title>
+    <title>Вход</title>
     <link rel="stylesheet" href="css/vchod.css">
 </head>
 <body>
     <button onclick="window.location.href = 'general_kenobi.html'" class="btn_return">
-        ← Назад
+        Назад
     </button>
     <div class="pelmen">
         <div class="vch_rec">
@@ -16,15 +16,19 @@
             </div>
             <div class="email_input_div">
                 Элеткронный адрес:
-                <input type="text" name="email" id="email" class="email_input">
+                <input type="text" placeholder="Введите эл. адрес..." id="email" class="email_input">
             </div>
             <div class="password_input_div">
                 Пароль:
-                <input type="password" name="email" id="email" class="password_input">
+                <input type="password" placeholder="Введите пароль..." id="password" class="password_input">
             </div>
+            <button id="btn" class="btn">
+                Войти
+            </button>
             <div class="bottom_text">
                 <p>Нет аккаунта? <a href="regisrtasia.html">Зарегестрироваться</a>.</p>
             </div>
+            <script src="js/vchod.js"></script>
         </div>
     </div>
 </body>
